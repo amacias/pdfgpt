@@ -1,5 +1,9 @@
-from PyPDF2 import PdfReader
+# Based on the work from: 
+# https://anirudhlohia.medium.com/automated-summarisation-of-pdfs-with-gpt-and-python-8cb398e5f029
+
 #export OPENAI_API_KEY=key_copied_from_openai_site
+
+from PyPDF2 import PdfReader
 
 # This function is reading PDF from the start page to final page
 # given as input (if less pages exist, then it reads till this last page)
